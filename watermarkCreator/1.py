@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread(r"C:\Users\Saif\PycharmProjects\opencv2\Resources\flower.jpg")
+img=cv2.imread(r"Resources/flower.jpg")
 img=cv2.resize(img,(720,480))
 
 blank=np.zeros_like(img)
